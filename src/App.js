@@ -10,7 +10,7 @@ function App() {
       
       <UserProfiles Name = "John Doe" Age = {25} Occupation = "gardener"/>
       <UserProfiles Name = "Steve" Age = {35} Occupation = "lawyer"/>
-      <event/>
+      <Event/>
       </div>
   )
 }

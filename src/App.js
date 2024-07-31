@@ -1,6 +1,6 @@
 
 import './App.css';
-import MyComponent from './components/MyComponent'
+
 import UserProfiles from './components/UserProfiles'
 
 function App() {

@@ -1,13 +1,13 @@
 
 import './App.css';
 import MyComponent from './components/MyComponent'
-import UserProfile from './component/UserProfiles'
+import UserProfile from './components/UserProfiles'
 
 function App() {
   return (
     <div> <h1>Hello from React</h1> 
       <MyComponent/>
-      <UserProfile name = "John Doe" age = "25" occupation = "gardener"/>
+      <UserProfile Name = "John Doe" Age = "25" Occupation = "gardener"/>
       </div>
   )
 }

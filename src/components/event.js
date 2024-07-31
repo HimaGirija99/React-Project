@@ -9,4 +9,4 @@ function Event()  {
   )
 }
 
-export default event
+export default Event

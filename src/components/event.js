@@ -1,6 +1,6 @@
 import React from 'react'
 
-const event = () => {
+function event()  {
   return (
     <div>
         <h1>Event handling </h1>

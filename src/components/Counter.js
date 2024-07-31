@@ -6,7 +6,7 @@ function Counter(){
         setCount(count+1)
     }
     function decrement(){
-        if(count == 0){
+        if(count === 0){
             setCount(count)
         }else{
             setCount(count-1)

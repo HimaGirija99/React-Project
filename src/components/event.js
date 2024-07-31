@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Event()  {
+function event()  {
     const handleClick =()=>{
         console.log('Button was clicked')
     }
@@ -12,4 +12,4 @@ function Event()  {
   )
 }
 
-export default Event
+export default event

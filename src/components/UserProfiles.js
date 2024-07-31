@@ -1,5 +1,5 @@
 
-function UserProfile(props){
+function UserProfiles(props){
     console.log(props)
     return (
         <div>
@@ -9,4 +9,4 @@ function UserProfile(props){
         </div>
     )
 }
-export default UserProfile
+export default UserProfiles

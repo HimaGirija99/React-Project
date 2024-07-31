@@ -1,7 +1,7 @@
 
 import './App.css';
 import MyComponent from './components/MyComponent'
-import UserProfile from './componentUserProfiles'
+import UserProfile from './component/UserProfiles'
 
 function App() {
   return (

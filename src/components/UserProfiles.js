@@ -1,6 +1,6 @@
 
 function UserProfiles(props){
-    
+    console.log(props)
     return (
         <div>
             <h3>

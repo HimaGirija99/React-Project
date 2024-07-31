@@ -2,7 +2,7 @@
 import './App.css';
 
 import UserProfiles from './components/UserProfiles'
-import Event from './components/Event'
+import Event from './components/event'
 
 function App() {
   return (

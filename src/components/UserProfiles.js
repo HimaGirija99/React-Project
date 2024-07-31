@@ -5,7 +5,7 @@ function UserProfiles(props){
     return (
         <div>
             <h3>
-                Name:{props.name} Age:{props.age} Occupation:{props.occupation}
+                Name:{props.Name} Age:{props.Age} Occupation:{props.Occupation}
             </h3>
         </div>
     )

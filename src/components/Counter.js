@@ -6,7 +6,12 @@ function Counter(){
         setCount(count+1)
     }
     function decrement(){
-        setCount(count-1)
+        if(count == 0){
+            setCount(count)
+        }else{
+            setCount(count-1)
+        }
+        
     }
     return (
         <div><h2>The count value is {count} </h2>

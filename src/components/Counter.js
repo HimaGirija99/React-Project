@@ -8,13 +8,13 @@ function Counter(){
     function decrement(){
         setCount(count-1)
     }
-    return {
-        <div> 
-            <h2> The count value is {count}</h2>
-            <button OnClick={increment}>Increment</button>
-            <button OnClick={decrement}>Decrement</button>
+    return (
+        <div><h2>The count value is {count} </h2>
+        <button OnClick={increment}> Increment </button>
+        <button OnClick={decrement}> Decrement </button> 
         </div>
-    }
+    
+    )
 }
 
 export default Counter

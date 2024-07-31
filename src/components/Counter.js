@@ -14,7 +14,7 @@ function Counter(){
         
     }
     return (
-        <div><h2>The count value is {count} </h2>
+        <div><h2>The count value is {setCount} </h2>
         <button OnClick={increment}> Increment </button>
         <button OnClick={decrement}> Decrement </button> 
         </div>

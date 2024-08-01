@@ -4,7 +4,7 @@ import { useState } from 'react'
 function Form() {
     const[name, setName] = React.useState('')
     let handleChange =(e) =>{
-        console.log(e.target.value)
+        
         setName(e.target.value)
     }
   return (

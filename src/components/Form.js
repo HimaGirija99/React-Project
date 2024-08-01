@@ -3,11 +3,11 @@ import { useState } from 'react'
 
 function Form() {
     const[name, setName] = useState('')
-    let handleChange =(e) =>{
-        console.log(e)        
+    let handleChange =(e) =>{               
         setName(e.target.value)
     }
     let handleSubmit=(e)=>{
+        e.preventDefault()
         console.log(name)
     }
   return (

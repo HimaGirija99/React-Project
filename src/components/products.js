@@ -4,8 +4,8 @@ function products() {
     let products =['laptop', 'mobile', 'tablet', 'camera', 'watch', 'tv', 'headphones', 'speaker']
   return (
     <div>
-        {products.map((product)=>{
-            return <li key={product}>{product}</li>
+        {products.map((product, index)=>{
+            return <li key={index}>{product}</li>
         })}
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Products() {
+function products() {
     let Products =['laptop', 'mobile', 'tablet', 'camera', 'watch', 'tv', 'headphones', 'speaker']
   return (
     <div>
@@ -11,4 +11,4 @@ function Products() {
   )
 }
 
-export default Products
+export default products

@@ -7,12 +7,16 @@ function Form() {
         console.log(e)        
         setName(e.target.value)
     }
+    let handleSubmit=(e)=>{
+        console.log(name)
+    }
   return (
     <div>
         <h1>This is a form</h1>
-        <form>
+        <form onSubmit={handleSubmit}>
             <label>Name</label>
             <input onChange = {handleChange} type='text' value={name}></input>
+            <button>Submit Form</button>
         </form>
     </div>
   )

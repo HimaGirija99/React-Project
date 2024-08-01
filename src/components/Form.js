@@ -12,18 +12,17 @@ function Form() {
     }
     let handleSubmit=(e)=>{
         e.preventDefault()
-        console.log(name)
-        console.log(age)
+        console.log({name:{name}, age:{age}})
+        
     }
   return (
     <div>
         <h1>This is a form</h1>
         <form onSubmit={handleSubmit}>
             <label>Name</label>
-            <input onChange = {handleName} type='text' value={name}></input>
-            <button>Submit Name</button>
+            <input onChange = {handleName} type='text' value={name}></input>            
             <input onChange = {handleAge} type='text' value={age}></input>
-            <button>Submit Age</button>
+            <button>Submit</button>
         </form>
     </div>
   )

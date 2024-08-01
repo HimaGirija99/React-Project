@@ -1,12 +1,12 @@
 import React from 'react'
-import { useState } from 'react'
+import {useState} from 'react'
 
-function Form() {
+function Form(){
     const[name, setName] = useState('')
     const[age, setAge] = useState('')
     let handleName =(e) =>{               
         setName(e.target.value)
-        
+    }
     let handleAge =(e) =>{         
         setAge(e.target.value)
     }

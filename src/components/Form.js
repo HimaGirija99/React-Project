@@ -11,7 +11,7 @@ function Form() {
     <div>
         <h1>This is a form</h1>
         <form>
-            <lable>Name</lable>
+            <label>Name</label>
             <input onChange = {handleChange} type='text' value={name}></input>
         </form>
     </div>

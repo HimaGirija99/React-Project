@@ -18,7 +18,7 @@ function Ue(){
         <div>
             <h1>
                 This is my count value:{count}               
-                <input onChange= {handleChange} type = 'text' value={text}></input>
+                <div><input onChange= {handleChange} type = 'text' value={text}></input></div>
                 <h2>{text}</h2>
             </h1>
             <button onClick={incrementCount}>Increment</button>

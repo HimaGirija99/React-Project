@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 function Form() {
-    const[name, setName] = React.useState('')
+    const[name, setName] = useState('')
     let handleChange =(e) =>{
         
         setName(e.target.value)

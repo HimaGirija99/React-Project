@@ -20,7 +20,8 @@ function Form(){
         <h1>This is a form</h1>
         <form onSubmit={handleSubmit}>
             <label>Name</label>
-            <input onChange = {handleName} type='text' value={name}></input>            
+            <input onChange = {handleName} type='text' value={name}></input>     
+            <label>Age</label>       
             <input onChange = {handleAge} type='text' value={age}></input>
             <button>Submit</button>
         </form>

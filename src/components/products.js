@@ -1,14 +1,14 @@
 import React from 'react'
 
-function Products() {
-    let Products =['laptop', 'mobile', 'tablet', 'camera', 'watch', 'tv', 'headphones', 'speaker']
+function products() {
+    let products =['laptop', 'mobile', 'tablet', 'camera', 'watch', 'tv', 'headphones', 'speaker']
   return (
     <div>
-        {Products.map((Product)=>{
-            return <li key={Product}>{Product}</li>
+        {products.map((product)=>{
+            return <li key={product}>{product}</li>
         })}
     </div>
   )
 }
 
-export default Products
+export default products

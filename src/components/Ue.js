@@ -14,8 +14,8 @@ function Ue(){
         <div>
             <h1>
                 This is my count value:{count}
-                <label> Click </label>
-                <button onClick={incrementCount}>Submit</button>
+                
+                <button onClick={incrementCount}>Increment</button>
             </h1>
         </div>
     )

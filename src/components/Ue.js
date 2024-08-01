@@ -8,7 +8,7 @@ function Ue(){
     useEffect(()=>{
         console.log('use Effect runs')
         document.title = `Button clicked for ${count} times`
-    })
+    }, [])
     console.log('other code that gets executed')
     return (
         <div>

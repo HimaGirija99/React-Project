@@ -1,12 +1,12 @@
 
 import './App.css';
-import  Form from './components/Form.js'
+import  Ue from './components/Ue.js'
 
 
 function App() {
   return (
     <div>       
-      <Form/>
+      <Ue/>
       
       </div>
   )

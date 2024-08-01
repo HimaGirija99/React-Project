@@ -12,15 +12,13 @@ function Ue(){
     useEffect(()=>{
         console.log('use Effect runs')
         document.title = `Button clicked for ${count} times`
-    }, [])
+    }, [count])
     console.log('other code that gets executed')
     return (
         <div>
-            <h1>
-                This is my count value:{count}               
-                <div><input onChange= {handleChange} type = 'text' value={text}></input></div>
-                <h2>{text}</h2>
-            </h1>
+            <h1>This is my count value:{count}</h1>
+            <input onChange= {handleChange} type = 'text' value={text}></input>
+            <h2>{text}</h2>
             <button onClick={incrementCount}>Increment</button>
         </div>
     )

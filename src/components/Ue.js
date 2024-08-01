@@ -13,10 +13,10 @@ function Ue(){
     return (
         <div>
             <h1>
-                This is my count value:{count}
+                This is my count value:{count}               
                 
-                <button onClick={incrementCount}>Increment</button>
             </h1>
+            <div><button onClick={incrementCount}>Increment</button></div>
         </div>
     )
 }

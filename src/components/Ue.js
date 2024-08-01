@@ -2,8 +2,12 @@ import {useEffect, useState} from 'react'
 
 function Ue(){
     const[count, setCount] = useState(0)
+    const[text, setText] = useState(' ')
     let incrementCount = () =>{
         setCount(count+1)
+    }
+    let handleChange = (e)=>{
+        setText(e.target.value)
     }
     useEffect(()=>{
         console.log('use Effect runs')
@@ -14,9 +18,10 @@ function Ue(){
         <div>
             <h1>
                 This is my count value:{count}               
-                
+                <input onChange= {handleChange} type = 'text' value={text}></input>
+                <h2>{text}</h2>
             </h1>
-            <div><button onClick={incrementCount}>Increment</button></div>
+            <button onClick={incrementCount}>Increment</button>
         </div>
     )
 }

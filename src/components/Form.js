@@ -12,7 +12,7 @@ function Form(){
     }
     let handleSubmit=(e)=>{
         e.preventDefault()
-        console.log({name:{name}, age:{age}})
+        console.log({Name:name, Age:age})
         
     }
   return (

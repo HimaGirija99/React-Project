@@ -5,7 +5,8 @@ function Form() {
     <div>
         <h1>This is a form</h1>
         <form>
-            <input type='text' label ='name' placeholder='Enter your Name'></input>
+            <lable>Name</lable>
+            <input type='text' placeholder='Enter your Name'></input>
         </form>
     </div>
   )

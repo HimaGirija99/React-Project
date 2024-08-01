@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 function Form() {
     const[name, setName] = useState('')
-    const[age, setAge] = useState(0)
+    const[age, setAge] = useState('')
     let handleName =(e) =>{               
         setName(e.target.value)
         
@@ -22,7 +22,7 @@ function Form() {
             <label>Name</label>
             <input onChange = {handleName} type='text' value={name}></input>
             <button>Submit Name</button>
-            <input onChange = {handleAge} type='text' value={name}></input>
+            <input onChange = {handleAge} type='text' value={age}></input>
             <button>Submit Age</button>
         </form>
     </div>
